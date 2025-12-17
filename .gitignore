@@ -45,3 +45,5 @@ outputs/*.txt
 # OS
 .DS_Store
 Thumbs.db
+uploads/
+web_outputs/
