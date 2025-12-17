@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Intelligence Tool - AI-Powered Analytics</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1>🎓 Learning Intelligence Tool</h1>
+                <p class="subtitle">AI-Powered Course Completion & Dropout Risk Analysis</p>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Upload Section -->
+            <section class="upload-section" id="uploadSection">
+                <div class="card">
+                    <div class="card-header">
+                        <h2>📂 Upload Learner Data</h2>
+                        <p>Upload a CSV or JSON file with student chapter-level data</p>
+                    </div>
+                    <div class="card-body">
+                        <div class="upload-area" id="uploadArea">
+                            <div class="upload-icon">📁</div>
+                            <p class="upload-text">Drag & drop your file here or click to browse</p>
+                            <p class="upload-hint">Supported formats: CSV, JSON (Max 16MB)</p>
+                            <input type="file" id="fileInput" accept=".csv,.json" hidden>
+                            <button class="btn btn-primary" onclick="document.getElementById('fileInput').click()">
+                                Choose File
+                            </button>
+                        </div>
+                        <div class="file-info" id="fileInfo" style="display: none;">
+                            <div class="file-details">
+                                <span class="file-name" id="fileName"></span>
+                                <button class="btn-remove" onclick="removeFile()">✕</button>
+                            </div>
+                            <div class="file-stats" id="fileStats"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Required Format Info -->
+                <div class="info-box">
+                    <h3>📋 Required Data Format</h3>
+                    <div class="format-grid">
+                        <div class="format-item">
+                            <strong>student_id</strong>
+                            <span>Student identifier</span>
+                        </div>
+                        <div class="format-item">
+                            <strong>course_id</strong>
+                            <span>Course identifier</span>
+                        </div>
+                        <div class="format-item">
+                            <strong>chapter_order</strong>
+                            <span>Chapter number (≥1)</span>
+                        </div>
+                        <div class="format-item">
+                            <strong>time_spent</strong>
+                            <span>Minutes (≥0)</span>
+                        </div>
+                        <div class="format-item">
+                            <strong>score</strong>
+                            <span>Score (0-100)</span>
+                        </div>
+                        <div class="format-item">
+                            <strong>completion_status</strong>
+                            <span>0 or 1</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Results Section -->
+            <section class="results-section" id="resultsSection" style="display: none;">
+                <div class="card">
+                    <div class="card-header">
+                        <h2>📊 Analysis Results</h2>
+                        <div class="download-buttons" id="downloadButtons"></div>
+                    </div>
+                    <div class="card-body">
+                        <!-- Summary Stats -->
+                        <div class="stats-grid" id="statsGrid"></div>
+
+                        <!-- Tabs -->
+                        <div class="tabs">
+                            <button class="tab-btn active" onclick="showTab('overview')">Overview</button>
+                            <button class="tab-btn" onclick="showTab('risk')">High-Risk Students</button>
+                            <button class="tab-btn" onclick="showTab('difficulty')">Difficult Chapters</button>
+                            <button class="tab-btn" onclick="showTab('factors')">Key Factors</button>
+                            <button class="tab-btn" onclick="showTab('report')">Full Report</button>
+                        </div>
+
+                        <!-- Tab Content -->
+                        <div class="tab-content">
+                            <div id="overview" class="tab-pane active"></div>
+                            <div id="risk" class="tab-pane"></div>
+                            <div id="difficulty" class="tab-pane"></div>
+                            <div id="factors" class="tab-pane"></div>
+                            <div id="report" class="tab-pane"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn btn-secondary" onclick="resetApp()">
+                    ← Upload New File
+                </button>
+            </section>
+
+            <!-- Loading Overlay -->
+            <div class="loading-overlay" id="loadingOverlay" style="display: none;">
+                <div class="spinner"></div>
+                <p id="loadingText">Processing...</p>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Built with ❤️ for AI-powered learning analytics | © 2025</p>
+        </footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>

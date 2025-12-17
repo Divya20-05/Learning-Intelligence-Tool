@@ -1,0 +1,759 @@
+{
+  "summary_stats": {
+    "total_students": 50,
+    "predicted_completions": 37,
+    "completion_rate": 74.0,
+    "high_risk_count": 9,
+    "medium_risk_count": 6,
+    "low_risk_count": 35,
+    "avg_completion_probability": 73.6,
+    "avg_dropout_risk": 32.5,
+    "total_chapters_analyzed": 97,
+    "hard_chapters": 1,
+    "medium_chapters": 29,
+    "easy_chapters": 67
+  },
+  "student_predictions": [
+    {
+      "student_id": 31,
+      "course_id": 3,
+      "completion_probability": 0.9990806686046512,
+      "will_complete": 1,
+      "dropout_risk_score": 0.39627291807425774,
+      "risk_level": "Low"
+    },
+    {
+      "student_id": 33,
+      "course_id": 9,
+      "completion_probability": 1.0,
+      "will_complete": 1,
+      "dropout_risk_score": 0.09785635626614032,
+      "risk_level": "Low"
+    },
+    {
+      "student_id": 65,
+      "course_id": 3,
+      "completion_probability": 1.0,
+      "will_complete": 1,
+      "dropout_risk_score": 0.2783893758924159,
+      "risk_level": "Low"
+    },
+    {
+      "student_id": 89,
+      "course_id": 5,
+      "completion_probability": 1.0,
+      "will_complete": 1,
+      "dropout_risk_score": 0.5044918189162217,
+      "risk_level": "Medium"
+    },
+    {
+      "student_id": 141,
+      "course_id": 5,
+      "completion_probability": 0.9953747714808044,
+      "will_complete": 1,
+      "dropout_risk_score": 0.05881213689511097,
+      "risk_level": "Low"
+    },
+    {
+      "student_id": 142,
+      "course_id": 3,
+      "completion_probability": 0.9754656194488611,
+      "will_complete": 1,
+      "dropout_risk_score": 0.12186090353069053,
+      "risk_level": "Low"
+    },
+    {
+      "student_id": 217,
+      "course_id": 4,
+      "completion_probability": 1.0,
+      "will_complete": 1,
+      "dropout_risk_score": 0.23817235789982452,
+      "risk_level": "Low"
+    },
+    {
+      "student_id": 223,
+      "course_id": 3,
+      "completion_probability": 1.0,
+      "will_complete": 1,
+      "dropout_risk_score": 0.7631686121777685,
+      "risk_level": "High"
+    },
+    {
+      "student_id": 234,
+      "course_id": 7,
+      "completion_probability": 0.0,
+      "will_complete": 0,
+      "dropout_risk_score": 0.6611833208797842,
+      "risk_level": "Medium"
+    },
+    {
+      "student_id": 239,
+      "course_id": 2,
+      "completion_probability": 0.0,
+      "will_complete": 0,
+      "dropout_risk_score": 0.7754153712525215,
+      "risk_level": "High"
+    },
+    {
+      "student_id": 255,
+      "course_id": 2,
+      "completion_probability": 1.0,
+      "will_complete": 1,
+      "dropout_risk_score": 0.1880880402850753,
+      "risk_level": "Low"
+    },
+    {
+      "student_id": 307,
+      "course_id": 7,
+      "completion_probability": 0.0,
+      "will_complete": 0,
+      "dropout_risk_score": 0.13890101803380772,
+      "risk_level": "Low"
+    },
+    {
+      "student_id": 314,
+      "course_id": 2,
+      "completion_probability": 1.0,
+      "will_complete": 1,
+      "dropout_risk_score": 0.0933676301910995,
+      "risk_level": "Low"
+    },
+    {
+      "student_id": 319,
+      "course_id": 2,
+      "completion_probability": 1.0,
+      "will_complete": 1,
+      "dropout_risk_score": 0.05698206605543679,
+      "risk_level": "Low"
+    },
+    {
+      "student_id": 323,
+      "course_id": 6,
+      "completion_probability": 1.0,
+      "will_complete": 1,
+      "dropout_risk_score": 0.07832057906061972,
+      "risk_level": "Low"
+    },
+    {
+      "student_id": 357,
+      "course_id": 1,
+      "completion_probability": 0.9864158479680566,
+      "will_complete": 1,
+      "dropout_risk_score": 0.12683649404261713,
+      "risk_level": "Low"
+    },
+    {
+      "student_id": 367,
+      "course_id": 5,
+      "completion_probability": 0.0,
+      "will_complete": 0,
+      "dropout_risk_score": 0.09881608459325857,
+      "risk_level": "Low"
+    },
+    {
+      "student_id": 381,
+      "course_id": 8,
+      "completion_probability": 0.9896904198002369,
+      "will_complete": 1,
+      "dropout_risk_score": 0.7741613027840701,
+      "risk_level": "High"
+    },
+    {
+      "student_id": 385,
+      "course_id": 1,
+      "completion_probability": 0.9963544668587896,
+      "will_complete": 1,
+      "dropout_risk_score": 0.7531843784794108,
+      "risk_level": "High"
+    },
+    {
+      "student_id": 405,
+      "course_id": 10,
+      "completion_probability": 1.0,
+      "will_complete": 1,
+      "dropout_risk_score": 0.16454002654091113,
+      "risk_level": "Low"
+    },
+    {
+      "student_id": 463,
+      "course_id": 9,
+      "completion_probability": 0.0,
+      "will_complete": 0,
+      "dropout_risk_score": 0.07427736511823556,
+      "risk_level": "Low"
+    },
+    {
+      "student_id": 473,
+      "course_id": 3,
+      "completion_probability": 1.0,
+      "will_complete": 1,
+      "dropout_risk_score": 0.797663123035398,
+      "risk_level": "High"
+    },
+    {
+      "student_id": 476,
+      "course_id": 4,
+      "completion_probability": 0.0,
+      "will_complete": 0,
+      "dropout_risk_score": 0.09524151400799435,
+      "risk_level": "Low"
+    },
+    {
+      "student_id": 493,
+      "course_id": 4,
+      "completion_probability": 0.9859261485451762,
+      "will_complete": 1,
+      "dropout_risk_score": 0.16668865849491385,
+      "risk_level": "Low"
+    },
+    {
+      "student_id": 509,
+      "course_id": 8,
+      "completion_probability": 0.9937937381138504,
+      "will_complete": 1,
+      "dropout_risk_score": 0.24199923719086472,
+      "risk_level": "Low"
+    },
+    {
+      "student_id": 520,
+      "course_id": 6,
+      "completion_probability": 0.01,
+      "will_complete": 0,
+      "dropout_risk_score": 0.07671174214341821,
+      "risk_level": "Low"
+    },
+    {
+      "student_id": 521,
+      "course_id": 9,
+      "completion_probability": 0.0,
+      "will_complete": 0,
+      "dropout_risk_score": 0.8358688928299924,
+      "risk_level": "High"
+    },
+    {
+      "student_id": 533,
+      "course_id": 2,
+      "completion_probability": 0.9922511485451762,
+      "will_complete": 1,
+      "dropout_risk_score": 0.09395097989758203,
+      "risk_level": "Low"
+    },
+    {
+      "student_id": 545,
+      "course_id": 7,
+      "completion_probability": 0.0,
+      "will_complete": 0,
+      "dropout_risk_score": 0.7840017561431134,
+      "risk_level": "High"
+    },
+    {
+      "student_id": 548,
+      "course_id": 7,
+      "completion_probability": 1.0,
+      "will_complete": 1,
+      "dropout_risk_score": 0.5475490279657568,
+      "risk_level": "Medium"
+    },
+    {
+      "student_id": 557,
+      "course_id": 2,
+      "completion_probability": 0.985043171337199,
+      "will_complete": 1,
+      "dropout_risk_score": 0.3626881481928216,
+      "risk_level": "Low"
+    },
+    {
+      "student_id": 575,
+      "course_id": 6,
+      "completion_probability": 1.0,
+      "will_complete": 1,
+      "dropout_risk_score": 0.5156232693328511,
+      "risk_level": "Medium"
+    },
+    {
+      "student_id": 582,
+      "course_id": 3,
+      "completion_probability": 1.0,
+      "will_complete": 1,
+      "dropout_risk_score": 0.17395720178955712,
+      "risk_level": "Low"
+    },
+    {
+      "student_id": 628,
+      "course_id": 8,
+      "completion_probability": 0.9874392712550608,
+      "will_complete": 1,
+      "dropout_risk_score": 0.16880903047795842,
+      "risk_level": "Low"
+    },
+    {
+      "student_id": 657,
+      "course_id": 8,
+      "completion_probability": 0.9628828707600793,
+      "will_complete": 1,
+      "dropout_risk_score": 0.09514339126817148,
+      "risk_level": "Low"
+    },
+    {
+      "student_id": 675,
+      "course_id": 6,
+      "completion_probability": 0.9970747225784866,
+      "will_complete": 1,
+      "dropout_risk_score": 0.10158793604005244,
+      "risk_level": "Low"
+    },
+    {
+      "student_id": 676,
+      "course_id": 2,
+      "completion_probability": 0.0,
+      "will_complete": 0,
+      "dropout_risk_score": 0.10329783609187708,
+      "risk_level": "Low"
+    },
+    {
+      "student_id": 709,
+      "course_id": 7,
+      "completion_probability": 0.9635510657793838,
+      "will_complete": 1,
+      "dropout_risk_score": 0.352578421212214,
+      "risk_level": "Low"
+    },
+    {
+      "student_id": 747,
+      "course_id": 3,
+      "completion_probability": 1.0,
+      "will_complete": 1,
+      "dropout_risk_score": 0.6233505188212131,
+      "risk_level": "Medium"
+    },
+    {
+      "student_id": 761,
+      "course_id": 5,
+      "completion_probability": 1.0,
+      "will_complete": 1,
+      "dropout_risk_score": 0.09423790009006774,
+      "risk_level": "Low"
+    },
+    {
+      "student_id": 849,
+      "course_id": 2,
+      "completion_probability": 0.0,
+      "will_complete": 0,
+      "dropout_risk_score": 0.8656314698519374,
+      "risk_level": "High"
+    },
+    {
+      "student_id": 851,
+      "course_id": 1,
+      "completion_probability": 0.9822511485451761,
+      "will_complete": 1,
+      "dropout_risk_score": 0.1258626863133627,
+      "risk_level": "Low"
+    },
+    {
+      "student_id": 855,
+      "course_id": 1,
+      "completion_probability": 0.0,
+      "will_complete": 0,
+      "dropout_risk_score": 0.21359971694645302,
+      "risk_level": "Low"
+    },
+    {
+      "student_id": 858,
+      "course_id": 4,
+      "completion_probability": 0.9875814023571828,
+      "will_complete": 1,
+      "dropout_risk_score": 0.14748542114364685,
+      "risk_level": "Low"
+    },
+    {
+      "student_id": 865,
+      "course_id": 4,
+      "completion_probability": 1.0,
+      "will_complete": 1,
+      "dropout_risk_score": 0.21322666440538576,
+      "risk_level": "Low"
+    },
+    {
+      "student_id": 882,
+      "course_id": 4,
+      "completion_probability": 1.0,
+      "will_complete": 1,
+      "dropout_risk_score": 0.7930844304609873,
+      "risk_level": "High"
+    },
+    {
+      "student_id": 883,
+      "course_id": 4,
+      "completion_probability": 1.0,
+      "will_complete": 1,
+      "dropout_risk_score": 0.46762111634405495,
+      "risk_level": "Medium"
+    },
+    {
+      "student_id": 930,
+      "course_id": 6,
+      "completion_probability": 1.0,
+      "will_complete": 1,
+      "dropout_risk_score": 0.19061564064925157,
+      "risk_level": "Low"
+    },
+    {
+      "student_id": 979,
+      "course_id": 3,
+      "completion_probability": 1.0,
+      "will_complete": 1,
+      "dropout_risk_score": 0.38791330459642187,
+      "risk_level": "Low"
+    },
+    {
+      "student_id": 991,
+      "course_id": 1,
+      "completion_probability": 0.012251148545176109,
+      "will_complete": 0,
+      "dropout_risk_score": 0.17059352101799632,
+      "risk_level": "Low"
+    }
+  ],
+  "high_risk_students": [
+    {
+      "student_id": 849,
+      "risk_score": 0.8656314698519374,
+      "risk_level": "High"
+    },
+    {
+      "student_id": 521,
+      "risk_score": 0.8358688928299924,
+      "risk_level": "High"
+    },
+    {
+      "student_id": 473,
+      "risk_score": 0.797663123035398,
+      "risk_level": "High"
+    },
+    {
+      "student_id": 882,
+      "risk_score": 0.7930844304609873,
+      "risk_level": "High"
+    },
+    {
+      "student_id": 545,
+      "risk_score": 0.7840017561431134,
+      "risk_level": "High"
+    },
+    {
+      "student_id": 239,
+      "risk_score": 0.7754153712525215,
+      "risk_level": "High"
+    },
+    {
+      "student_id": 381,
+      "risk_score": 0.7741613027840701,
+      "risk_level": "High"
+    },
+    {
+      "student_id": 223,
+      "risk_score": 0.7631686121777685,
+      "risk_level": "High"
+    },
+    {
+      "student_id": 385,
+      "risk_score": 0.7531843784794108,
+      "risk_level": "High"
+    },
+    {
+      "student_id": 234,
+      "risk_score": 0.6611833208797842,
+      "risk_level": "Medium"
+    },
+    {
+      "student_id": 747,
+      "risk_score": 0.6233505188212131,
+      "risk_level": "Medium"
+    },
+    {
+      "student_id": 548,
+      "risk_score": 0.5475490279657568,
+      "risk_level": "Medium"
+    },
+    {
+      "student_id": 575,
+      "risk_score": 0.5156232693328511,
+      "risk_level": "Medium"
+    },
+    {
+      "student_id": 89,
+      "risk_score": 0.5044918189162217,
+      "risk_level": "Medium"
+    },
+    {
+      "student_id": 883,
+      "risk_score": 0.46762111634405495,
+      "risk_level": "Medium"
+    }
+  ],
+  "difficult_chapters": [
+    {
+      "course_id": 7,
+      "chapter_order": 3,
+      "difficulty_score": 66.72767881546261,
+      "difficulty_level": "Hard",
+      "difficulty_rank": 1,
+      "dropout_rate": 0.6,
+      "avg_time_spent": 20.125999999999998,
+      "avg_score": 53.260000000000005,
+      "completion_rate": 0.4,
+      "student_count": 5
+    },
+    {
+      "course_id": 1,
+      "chapter_order": 4,
+      "difficulty_score": 61.663333492328576,
+      "difficulty_level": "Medium",
+      "difficulty_rank": 2,
+      "dropout_rate": 0.25,
+      "avg_time_spent": 53.533125,
+      "avg_score": 29.630000000000003,
+      "completion_rate": 0.75,
+      "student_count": 4
+    },
+    {
+      "course_id": 1,
+      "chapter_order": 2,
+      "difficulty_score": 56.23816918600279,
+      "difficulty_level": "Medium",
+      "difficulty_rank": 3,
+      "dropout_rate": 0.19999999999999996,
+      "avg_time_spent": 60.290000000000006,
+      "avg_score": 37.606,
+      "completion_rate": 0.8,
+      "student_count": 5
+    },
+    {
+      "course_id": 5,
+      "chapter_order": 2,
+      "difficulty_score": 56.11116095758709,
+      "difficulty_level": "Medium",
+      "difficulty_rank": 4,
+      "dropout_rate": 0.25,
+      "avg_time_spent": 50.075,
+      "avg_score": 39.265,
+      "completion_rate": 0.75,
+      "student_count": 4
+    },
+    {
+      "course_id": 5,
+      "chapter_order": 11,
+      "difficulty_score": 48.21385905115976,
+      "difficulty_level": "Medium",
+      "difficulty_rank": 5,
+      "dropout_rate": 0.0,
+      "avg_time_spent": 74.26666666666667,
+      "avg_score": 31.76,
+      "completion_rate": 1.0,
+      "student_count": 3
+    },
+    {
+      "course_id": 1,
+      "chapter_order": 6,
+      "difficulty_score": 48.14122456570854,
+      "difficulty_level": "Medium",
+      "difficulty_rank": 6,
+      "dropout_rate": 0.0,
+      "avg_time_spent": 67.19,
+      "avg_score": 27.316666666666666,
+      "completion_rate": 1.0,
+      "student_count": 3
+    },
+    {
+      "course_id": 2,
+      "chapter_order": 4,
+      "difficulty_score": 47.903647900868755,
+      "difficulty_level": "Medium",
+      "difficulty_rank": 7,
+      "dropout_rate": 0.1428571428571429,
+      "avg_time_spent": 46.410714285714285,
+      "avg_score": 37.25142857142857,
+      "completion_rate": 0.8571428571428571,
+      "student_count": 7
+    },
+    {
+      "course_id": 2,
+      "chapter_order": 5,
+      "difficulty_score": 45.154530087498266,
+      "difficulty_level": "Medium",
+      "difficulty_rank": 8,
+      "dropout_rate": 0.16666666666666663,
+      "avg_time_spent": 59.057500000000005,
+      "avg_score": 55.175000000000004,
+      "completion_rate": 0.8333333333333334,
+      "student_count": 6
+    },
+    {
+      "course_id": 5,
+      "chapter_order": 9,
+      "difficulty_score": 44.97034507619787,
+      "difficulty_level": "Medium",
+      "difficulty_rank": 9,
+      "dropout_rate": 0.0,
+      "avg_time_spent": 68.54,
+      "avg_score": 34.98,
+      "completion_rate": 1.0,
+      "student_count": 3
+    },
+    {
+      "course_id": 5,
+      "chapter_order": 7,
+      "difficulty_score": 44.93436114595755,
+      "difficulty_level": "Medium",
+      "difficulty_rank": 10,
+      "dropout_rate": 0.0,
+      "avg_time_spent": 75.5975,
+      "avg_score": 39.64333333333333,
+      "completion_rate": 1.0,
+      "student_count": 3
+    }
+  ],
+  "chapters_needing_improvement": [
+    {
+      "course_id": 7,
+      "chapter_order": 3,
+      "difficulty_score": 66.72767881546261,
+      "difficulty_level": "Hard",
+      "difficulty_rank": 1,
+      "dropout_rate": 0.6,
+      "avg_time_spent": 20.125999999999998,
+      "avg_score": 53.260000000000005,
+      "completion_rate": 0.4,
+      "student_count": 5
+    },
+    {
+      "course_id": 1,
+      "chapter_order": 4,
+      "difficulty_score": 61.663333492328576,
+      "difficulty_level": "Medium",
+      "difficulty_rank": 2,
+      "dropout_rate": 0.25,
+      "avg_time_spent": 53.533125,
+      "avg_score": 29.630000000000003,
+      "completion_rate": 0.75,
+      "student_count": 4
+    }
+  ],
+  "completion_feature_importance": [
+    {
+      "feature": "completion_rate",
+      "importance": 0.3527282557965628
+    },
+    {
+      "feature": "chapters_completed",
+      "importance": 0.21768436259775856
+    },
+    {
+      "feature": "chapters_attempted",
+      "importance": 0.18557913754815925
+    },
+    {
+      "feature": "last_chapter",
+      "importance": 0.14535431913649657
+    },
+    {
+      "feature": "score_std",
+      "importance": 0.02735209837699701
+    },
+    {
+      "feature": "total_time_spent",
+      "importance": 0.0199796059691428
+    },
+    {
+      "feature": "time_std",
+      "importance": 0.013264971700448176
+    },
+    {
+      "feature": "score_trend",
+      "importance": 0.008838891436113917
+    },
+    {
+      "feature": "max_score",
+      "importance": 0.008076200760838948
+    },
+    {
+      "feature": "avg_score",
+      "importance": 0.0056195229097909805
+    },
+    {
+      "feature": "min_score",
+      "importance": 0.005507620571177035
+    },
+    {
+      "feature": "low_score_count",
+      "importance": 0.005158448608157086
+    },
+    {
+      "feature": "engagement_rate",
+      "importance": 0.003047287195528732
+    },
+    {
+      "feature": "avg_time_per_chapter",
+      "importance": 0.0018092773928280721
+    }
+  ],
+  "dropout_feature_importance": [
+    {
+      "feature": "min_score",
+      "importance": 0.14711589877792314
+    },
+    {
+      "feature": "score_std",
+      "importance": 0.13185582693034217
+    },
+    {
+      "feature": "score_trend",
+      "importance": 0.12829766665519007
+    },
+    {
+      "feature": "max_score",
+      "importance": 0.1252114673802777
+    },
+    {
+      "feature": "total_time_spent",
+      "importance": 0.10114380260900503
+    },
+    {
+      "feature": "time_std",
+      "importance": 0.09389183366704511
+    },
+    {
+      "feature": "avg_score",
+      "importance": 0.0886454186006529
+    },
+    {
+      "feature": "avg_time_per_chapter",
+      "importance": 0.08402246856713431
+    },
+    {
+      "feature": "engagement_rate",
+      "importance": 0.04929748240012578
+    },
+    {
+      "feature": "low_score_count",
+      "importance": 0.022175652236464727
+    },
+    {
+      "feature": "completion_rate",
+      "importance": 0.007791389568354805
+    },
+    {
+      "feature": "chapters_attempted",
+      "importance": 0.007500743838119725
+    },
+    {
+      "feature": "chapters_completed",
+      "importance": 0.006688131596211158
+    },
+    {
+      "feature": "last_chapter",
+      "importance": 0.006362217173153481
+    }
+  ]
+}
